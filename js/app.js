@@ -17,7 +17,6 @@ const showProducts = (products) => {
     const { image, title, category, price, rating, id } = product;
     const { rate, count } = rating;
     const div = document.createElement("div");
-    div.classList.add("product");
 
     //card create  
 
